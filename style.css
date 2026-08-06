@@ -29,3 +29,4 @@ footer{background:#9d1b5a;color:#fff;padding:40px}
 .fade.show{opacity:1;transform:none}
 #petals{position:fixed;inset:0;pointer-events:none}
 @media(max-width:768px){.welcome-box{padding:25px}.gallery-grid img{height:220px}.parents,.parents2{width:120px;height:120px}.card{flex-direction:column;align-items:center}}
+@media (max-width:768px){.gallery-grid img{width:100%;height:auto;object-fit:contain;}}
