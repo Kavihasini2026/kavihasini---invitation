@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
 // Countdown Timer
 // ================================
 
-const eventDate = new Date("August 16, 2025 18:00:00").getTime();
+const eventDate = new Date("August 16, 2026 18:00:00").getTime();
 
 function updateCountdown() {
 
