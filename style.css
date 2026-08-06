@@ -11,6 +11,7 @@ body{font-family:Poppins,sans-serif;background:linear-gradient(#fff8fb,#fff);col
 h1,h2,h3{font-family:Cinzel,serif}
 h1{color:#ffffff;font-size:3.5rem;text-shadow:3px 3px 10px rgba(0,0,0,.7);margin-bottom:15px;}
 h2{color:#9d1b5a;margin-bottom:20px}
+.daughter-name{font-family:'Cinzel', serif;font-size:58px;font-weight:700;color:#FFD700;text-shadow:2px 2px 8px rgba(0,0,0,0.6);letter-spacing:2px;margin:15px 0;}
 .btn,.map-btn,.call{display:inline-block;padding:14px 28px;border-radius:30px;background:#9d1b5a;color:#fff;text-decoration:none;margin-top:20px}
 section{padding:70px 20px;text-align:center}
 .countdown #timer{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
