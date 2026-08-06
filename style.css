@@ -18,7 +18,19 @@ section{padding:70px 20px;text-align:center}
 .gallery-grid img{width:100%;height:280px;object-fit:cover;border-radius:18px;transition:.4s}
 .gallery-grid img:hover{transform:scale(1.05)}
 .card{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
-.item{background:#fff;border-radius:16px;padding:25px;min-width:240px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+.item{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    min-width:320px;
+    max-width:450px;
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.item:hover{
+    transform:translateY(-5px);
+}
 .qr{width:220px}
 footer{background:#9d1b5a;color:#fff;padding:40px}
 #musicBtn,#topBtn{position:fixed;right:20px;width:55px;height:55px;border:none;border-radius:50%;background:#9d1b5a;color:#fff;font-size:22px;cursor:pointer;box-shadow:0 5px 20px rgba(0,0,0,.3)}
@@ -26,4 +38,34 @@ footer{background:#9d1b5a;color:#fff;padding:40px}
 .fade{opacity:0;transform:translateY(50px);transition:1s}
 .fade.show{opacity:1;transform:none}
 #petals{position:fixed;inset:0;pointer-events:none}
-@media(max-width:768px){.welcome-box{padding:25px}.gallery-grid img{height:220px}.parents,.parents2{width:120px;height:120px}.card{flex-direction:column;align-items:center}}
+@media(max-width:768px){.item{
+    min-width:90%;
+}
+
+.item h1{
+    font-size:34px;
+}
+
+.item h3{
+    font-size:22px;
+}
+  .welcome-box{padding:25px}.gallery-grid img{height:220px}.parents,.parents2{width:120px;height:120px}.card{flex-direction:column;align-items:center}}
+.item h3{
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color:#9d1b5a;
+    margin-bottom:20px;
+}
+
+.item h1{
+    font-family: 'Cinzel', serif;
+    font-size:50px;
+    color:#444;
+    margin:15px 0;
+    text-shadow:2px 2px 6px rgba(0,0,0,.15);
+}
+
+.item p{
+    font-size:22px;
+    color:#555;
+}
